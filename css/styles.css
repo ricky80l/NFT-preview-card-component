@@ -1,0 +1,149 @@
+                                                @charset "UTF-8";
+                                                * {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                }
+                                                
+                                                .tessera {
+                                                    width: 1440px;
+                                                    height: 790px;
+                                                    font-family: 'Outfit', sans-serif;
+                                                    background-color: hsl(217, 54%, 11%);
+                                                    color: hsl(215, 51%, 70%);
+                                                    font-weight: 300;
+                                                    left: 50%;
+                                                    margin-left: -770px;
+                                                    top: 50%;
+                                                    margin-top: -395px;
+                                                    position: absolute;
+                                                }
+                                                
+                                                .container {
+                                                    margin: 100px auto;
+                                                    width: 325px;
+                                                    height: 650px;
+                                                    border-radius: 20px;
+                                                    background-color: hsl(216, 50%, 16%);
+                                                    position: relative;
+                                                    -webkit-box-shadow: 0px 10px 4px 24px #0C1729;
+                                                    box-shadow: 0px 10px 4px 24px #0C1729;
+                                                    top: 50%;
+                                                    margin-top: -325px;
+                                                }
+                                                
+                                                .inner-container {
+                                                    width: 275px;
+                                                    margin: 0 auto
+                                                }
+                                                
+                                                table {
+                                                    width: 100%;
+                                                }
+                                                
+                                                .overlay {
+                                                    width: 275px;
+                                                    height: 275px;
+                                                    background-color: hsla(178, 100%, 50%, 0.5);
+                                                    position: absolute;
+                                                    border-radius: 5px;
+                                                    top: 25px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    opacity: 0;
+                                                }
+                                                
+                                                .overlay img {
+                                                    text-align: center;
+                                                    display: block;
+                                                    margin: 0 auto;
+                                                }
+                                                
+                                                .overlay:hover {
+                                                    opacity: 1;
+                                                }
+                                                
+                                                .img-main {
+                                                    width: 100%;
+                                                    margin: 25px auto;
+                                                    border-radius: 5px;
+                                                }
+                                                
+                                                h1 {
+                                                    color: hsl(0, 0%, 100%);
+                                                    font-weight: 600;
+                                                    font-size: 20px;
+                                                    margin: 0 0 25px;
+                                                }
+                                                
+                                                hr {
+                                                    color: hsl(215, 32%, 27%);
+                                                    margin-bottom: 25px;
+                                                }
+                                                
+                                                p {
+                                                    font-size: 18px;
+                                                    margin: 0 0 25px;
+                                                }
+                                                
+                                                .price {
+                                                    color: hsl(178, 100%, 50%);
+                                                    float: left;
+                                                    font-weight: 400;
+                                                }
+                                                
+                                                .eth,
+                                                .clock,
+                                                .avatar {
+                                                    margin-right: 8px;
+                                                    display: inline-block;
+                                                }
+                                                
+                                                h1:hover,
+                                                .creator:hover {
+                                                    color: hsl(178, 100%, 50%);
+                                                }
+                                                
+                                                .time {
+                                                    float: right;
+                                                }
+                                                
+                                                .clearfix {
+                                                    clear: both;
+                                                }
+                                                
+                                                .avatar {
+                                                    height: 25px;
+                                                    border: 2px solid #fff;
+                                                    border-radius: 100%;
+                                                }
+                                                
+                                                td {
+                                                    vertical-align: middle;
+                                                }
+                                                
+                                                .creator {
+                                                    color: hsl(0, 0%, 100%);
+                                                }
+                                                /* FOOTER  */
+                                                
+                                                .attribution {
+                                                    font-size: 11px;
+                                                    text-align: center;
+                                                    color: lightgray;
+                                                    position: absolute;
+                                                    bottom: 20px;
+                                                }
+                                                
+                                                .attribution a {
+                                                    color: hsl(228, 45%, 44%);
+                                                }
+                                                
+                                                @media screen and (max-width: 600px) {
+                                                    .tessera {
+                                                        width: 375px;
+                                                        left: 50%;
+                                                        margin-left: -182px;
+                                                        position: absolute;
+                                                    }
+                                                }
