@@ -16,32 +16,42 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 
-<body>
-    <div class="tessera">
-        <div class="container">
+<body class="flex-center">
+    <div class="tessera flex-center">
+        <main class="container">
             <div class="inner-container">
                 <img class="img-main" src="images/image-equilibrium.jpg" alt="Equilibrium">
-                <div class="overlay"><img class="overlay-img" src="images/icon-view.svg" alt="view"></div>
-                <h1>Equilibrium #3429</h1>
-
+                <a href="www.google.it" title="Cover">
+                    <div class="overlay"><img class="overlay-img" src="images/icon-view.svg" alt="view"></div>
+                </a>
+                <a href="#" title="title" class="title">
+                    Equilibrium #3429
+                </a>
                 <p class="description">Our Equilibrium collection promotes balance and calm.</p>
-                <p class="price"><img class="eth" src="images/icon-ethereum.svg" alt="etherum">0.041 ETH</p>
-                <p class="time"><img class="clock" src="images/icon-clock.svg" alt="clock">3 days left</p>
-                <hr class="clearfix">
-                <table>
-                    <tr>
-                        <td><img class="avatar" src="images/image-avatar.png" alt="avatar"></td>
-                        <td>
-                            Creation of <span class="creator">Jules Wyvern</span>
-                        </td>
-                    </tr>
-                </table>
-
-                <div class="attribution">
-                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Riccardo Z.</a>
+                <div class="price_time">
+                    <div class="price_cont">
+                        <img class="eth" src="images/icon-ethereum.svg" alt="etherum">
+                        <span class="price">0.041 ETH</span>
+                    </div>
+                    <div class="clock_cont">
+                        <img class="clock" src="images/icon-clock.svg" alt="clock">
+                        <span>3 days left</span>
+                    </div>
                 </div>
+                <hr class="clearfix">
+                <div class="creation">
+                    <img class="avatar" src="images/image-avatar.png" alt="avatar">
+
+                    <span>Creation of <a href="#" class="creator" title="creator">Jules Wyvern</a></span>
+
+                </div>
+
+
             </div>
-        </div>
+        </main>
+        <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Riccardo Z.</a>
+        </footer>
     </div>
 </body>
 
